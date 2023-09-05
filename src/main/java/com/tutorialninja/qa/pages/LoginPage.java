@@ -22,6 +22,8 @@ public class LoginPage {
 
 	@FindBy(xpath = "//div[contains(@class,'alert-dismissible')]")
 	private WebElement emailPasswordNotMatchingWarning;
+	
+	//Constructor which refers the instance variable of class
 
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;

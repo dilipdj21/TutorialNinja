@@ -8,11 +8,23 @@
     <classes>
       <class name="com.turotialninja.qa.testcases.SearchTest">
         <methods>
+          <include name="verifySearchWithValidProduct"/>
           <include name="tearDown"/>
+          <include name="verifySearchWithoutAnyProduct"/>
           <include name="setup"/>
           <include name="veifySearchWithInvalidProduct"/>
         </methods>
       </class> <!-- com.turotialninja.qa.testcases.SearchTest -->
+      <class name="com.turotialninja.qa.testcases.LoginTest">
+        <methods>
+          <include name="verifyLoginWithOutProvidingCredentials"/>
+          <include name="verifyLoginWithInvalidEmailAndValidPassword"/>
+          <include name="verifyLoginWithValidEmailAndInvalidPassword"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginwithValidCredentials"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.turotialninja.qa.testcases.LoginTest -->
     </classes>
   </test> <!-- Tutorial Ninja Tests(failed) -->
 </suite> <!-- Failed suite [Tutorial Ninja Automation Suite] -->

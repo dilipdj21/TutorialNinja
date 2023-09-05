@@ -22,7 +22,7 @@ public class LoginTest extends Base {
 
 		loadPropertiesFile();
 		driver = initializeBrowserAndOpenApplicationURL(prop.getProperty("browserName"));
-		HomePage homepage = new HomePage(driver);
+		HomePage homepage = new HomePage(driver); 
 		homepage.clickOnMyAccount();
 		homepage.selectOnLogin();
 
@@ -37,7 +37,7 @@ public class LoginTest extends Base {
 	@Test(priority = 5, dataProvider = "validCredentialSupplier")
 	public void verifyLoginwithValidCredentials(String email, String password) {
 
-		LoginPage loginpage = new LoginPage(driver);
+		LoginPage loginpage = new LoginPage(driver); //Invokes the parameterized constructor
 		loginpage.enterEmailAddress(email);
 		loginpage.enterPassword(password);
 		loginpage.clickOnLoginButton();
