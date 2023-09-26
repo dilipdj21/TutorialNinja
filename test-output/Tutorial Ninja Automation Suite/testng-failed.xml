@@ -17,9 +17,6 @@
       </class> <!-- com.turotialninja.qa.testcases.SearchTest -->
       <class name="com.turotialninja.qa.testcases.LoginTest">
         <methods>
-          <include name="verifyLoginWithOutProvidingCredentials"/>
-          <include name="verifyLoginWithInvalidEmailAndValidPassword"/>
-          <include name="verifyLoginWithValidEmailAndInvalidPassword"/>
           <include name="tearDown"/>
           <include name="verifyLoginwithValidCredentials"/>
           <include name="setup"/>

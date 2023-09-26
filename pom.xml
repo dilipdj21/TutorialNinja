@@ -89,7 +89,7 @@
 					<version>3.1.2</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>testng.xml</suiteXmlFile>
+							<suiteXmlFile>/Users/noonacademy/eclipse-workspace/TutorialsNinja/testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
